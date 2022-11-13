@@ -62,11 +62,31 @@ header p {
 
 }
 
-#sales h2 {
+.sales-title {
   color: #676FFF;
-  padding: 32px 36px 20.84px 16px;
-  font-size: 24px;
-  line-height: 28.13px;
+  padding: 32px 36px 0 16px;
+  font-size: 24px;  
+  margin-bottom: 20.84px;
+}
+
+.form-control-container {
+  padding: 0 10px 16px 10px;  
+  max-width: 300px;  
+}
+
+.form-control {
+  height: 46px;
+  width: 100%;
+
+  background: #1B2531;
+  border: 1px solid #384459;
+  border-radius: 5px;
+
+  font-size: 18px;  
+  font-weight: 400;  
+  color: #9AAABE;
+  
+  padding: 0 21.33px;
 }
 
 
