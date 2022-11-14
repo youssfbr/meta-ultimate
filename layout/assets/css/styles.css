@@ -59,7 +59,6 @@ header p {
 
 #sales {
   padding: 40px 10px;
-
 }
 
 .sales-title {
@@ -71,7 +70,7 @@ header p {
 
 .form-control-container {
   padding: 0 10px 16px 10px;  
-  max-width: 300px;  
+  max-width: 280px;  
 }
 
 .form-control {
@@ -85,8 +84,64 @@ header p {
   font-size: 18px;  
   font-weight: 400;  
   color: #9AAABE;
-  
+
   padding: 0 21.33px;
 }
 
+.sales-table-container {
+  padding: 0 10px 10px 10px;  
+}
+
+.sales-table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;  
+}
+
+.sales-table thead {
+  height: 55px;
+  font-size: 16px;  
+  color: #E9E9E9;  
+}
+
+.sales-table tbody {
+  font-size: 14px;
+  font-weight: 400;
+  color: #CFCFCF;
+  text-align: center;
+}
+
+.sales-table tbody tr {
+  height: 74px;  
+  border-top: 1px solid #5F6E82;  
+}
+
+.sales-table tbody tr:nth-child(odd) {
+  background-color: #242C3B;  
+}
+
+.sales-table tbody tr:hover > td {
+  background-color: #384459;
+}
+
+.red-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.red-btn {
+  height: 45px;
+  width: 45px;
+  background: rgba(255, 107, 114, 0.1);
+  border: 1px solid #FF6B72;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.red-btn img {
+  width: 19px;
+}
 
