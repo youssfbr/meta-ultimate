@@ -1,0 +1,124 @@
+.card {
+  background-color: #283142;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+.sales-title {
+  color: #676FFF;
+  padding-top: 32px;
+  font-size: 24px;  
+  margin-bottom: 20.84px;
+}
+
+.form-control-container {
+  padding-bottom: 16px;
+  max-width: 280px;  
+}
+
+.form-control {
+  height: 46px;
+  width: 100%;
+
+  background: #1B2531;
+  border: 1px solid #384459;
+  border-radius: 5px;
+
+  font-size: 18px;  
+  font-weight: 400;  
+  color: #9AAABE;
+
+  padding: 0 21.33px;
+}
+
+.sales-table-container {
+  padding-bottom: 10px;  
+}
+
+.sales-table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;  
+}
+
+.sales-table thead {
+  height: 55px;
+  font-size: 16px;  
+  color: #E9E9E9;  
+}
+
+.sales-table tbody {
+  font-size: 14px;
+  font-weight: 400;
+  color: #CFCFCF;
+  text-align: center;
+}
+
+.sales-table tbody tr {
+  height: 74px;  
+  border-top: 1px solid #5F6E82;  
+}
+
+.sales-table tbody tr:nth-child(odd) {
+  background-color: #242C3B;  
+}
+
+.sales-table tbody tr:hover > td {
+  background-color: #384459;
+}
+
+.show576 {
+  display: none;
+}
+
+.show992 {
+  display: none;
+}
+
+@media (min-width: 576px) {
+
+  #sales {
+    padding-top: 30px;
+  }
+
+  .form-control-container {    
+    max-width: 300px;  
+  }
+
+  .card {    
+    padding: 20 35px 25px 35px;
+    margin: 20px 20px;
+  }
+
+  .sales-table tbody {
+    font-size: 15px;
+  }
+
+  .sales-table tbody tr {
+    height: 62px;     
+  }
+
+  .show576 {
+    display: table-cell;
+  }
+}
+
+@media (min-width: 992px) {
+
+  .card {      
+    margin: 20px 43px;
+  }  
+
+  .sales-table tbody {
+    font-size: 16px;
+  }
+
+  .show992 {
+    display: table-cell;
+  }
+}
+
+.red-btn-container {
+  display: flex;
+  justify-content: center;
+}

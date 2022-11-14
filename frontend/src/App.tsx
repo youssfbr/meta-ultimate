@@ -1,12 +1,20 @@
+import Header from "./components/Header";
 import NotificationButton from "./components/NotificationButton";
+import SalesCard from "./components/SalesCard";
 
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
-      <NotificationButton />
+      <Header />
+      <main>
+        <section id="sales">
+          <div className="container">
+            <SalesCard />
+          </div>
+        </section>
+      </main>
     </>
   );
 }
 
-export default App
+export default App;
