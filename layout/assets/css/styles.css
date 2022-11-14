@@ -145,3 +145,18 @@ header p {
   width: 19px;
 }
 
+.show576 {
+  display: none;
+}
+
+@media (min-width: 576px) {
+
+  .form-control-container {  
+    max-width: 300px;  
+  }
+
+  .show576 {
+    display: table-cell;
+  }
+}
+
