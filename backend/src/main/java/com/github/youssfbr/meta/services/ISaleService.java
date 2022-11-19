@@ -1,11 +1,11 @@
 package com.github.youssfbr.meta.services;
 
 import com.github.youssfbr.meta.entities.Sale;
-
-import java.util.List;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 
 public interface ISaleService {
 
-    List<Sale> listSales();
+    Page<Sale> pageSales(String minDate, String maxDate, Pageable pageable);
 
 }
